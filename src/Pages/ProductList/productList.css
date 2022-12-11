@@ -1,0 +1,33 @@
+.products{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.product{
+    border: solid rgba(0, 0, 0, 0.322) 1px;
+    padding:  5px 5px 5px 5px;
+    margin: 15px;
+    height:180px;
+    width: 250px;
+    box-shadow: 3px 3px 3px darkgray;
+    border-radius: 6px;
+    display: flex;
+}
+.product:hover{
+    cursor: pointer;
+}
+.melel{
+    font-family: cursive;
+}
+#product-img{
+    height: 140px;
+    width: 35%;
+}
+#product-img:hover{
+    height: 200px;
+    width: 300px;
+    background-color: darkgray;
+    z-index: 1;
+    cursor: zoom-in;
+}
